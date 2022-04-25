@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./fondos/favicon13.png" type="image/x-icon">
+    <title>home index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/index.css">
+
+    <style>
+         .border{
+           border: 2px  ;
+           color: gold;
+       }
+       
+       .heder{
+        background-image: url(./fondos/calavera.png);
+       }
+       label{
+           color: azure;
+       }
+    </style>
+</head>
+
+
+
+ 
+<header>
+    <h1>Contacto</h1>
+    
+    <nav class="nav"> 
+        <ul>
+                   
+            <li><a href="/home.html">Home</a></li> 
+            <li><a href="/vistas/galeria.html">Galeria</li>
+            <li><a href="/vistas/presupuesto.html">Presupuesto</a></li>
+            <li><a href="/vistas/quien_soy.html"> Quien soy</a></li>
+        </ul>
+        
+    </nav>
+ 
+</header>
+<main>
+    <div class="call">
+        <h2>Bienvenidos a <div class="unlegre"> Mi paginaa de Contacto</div> </h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+           Quis dolor ex perspiciatis asperiores inventore quasi at 
+           sit aspernatur quam doloremque.</p>
+          <a href="#pie">mas info</a>   <!--aca puse el ancla #pie  para ir hasta el fotter-->
+</main>
+<body>
+    <  <h2 id="title1">Formularios </h2>
+    
+    <form action="enviar.php" method="get" enctype="text/plain">
+        <fieldset>
+            <legend class="border">formulario de contacto</legend>
+        <label for=" "> primer nombre </label>
+        <input type="text" placeholder="campo obligatorio" name="" id="" required><h>
+        <br>
+        <label for=" "> segundo nombre </label>
+        <input type="text" placeholder="campo obligatorio" name="" id="" required>
+        <br>
+        <label for=" "> apellido </label>
+        <input type="text" placeholder="campo obligatorio" name="" id=""required>
+        <br>
+        <label for="">fecha de nacimiento</label>
+        <input type="date">  
+        <br> 
+        <label for="eded">edad</label>
+       <input type="number" name="" id="">
+        <br>
+        <label for=""> direccion</label>
+        <br>
+        <label for="" placeholder="numero de calle">calle</label>
+        <input type="text">
+        <br>
+        <label for="">numero</label>
+        <input type="number" placeholder="numero">
+        <br>
+        <label for="">dto</label>
+        <input type="number"placeholder=" si hay">
+        <br>
+        <p>genero</p>
+        <input name="sexo" type="radio">
+        <label for="">masculino</label>
+        <input name="sexo" type="radio">
+        <label for="">femenino</label>
+        <input name="sexo" type="radio">
+        <label for="">otro</label> <br>
+        <br>
+        <label for=" "placeholder> escribe tel</label>
+        <input type="number" name="" id=""placeholder="obligatorio" required>
+        <br>
+        <label for=" "> escribe mail </label>
+        <input type="mail" name="" id=""placeholder="mail obligatorio"required>
+        <br>
+        <label for="price">coloque las ganas de tatuarce que tiene</label>
+        <input name =" price" type="range">
+        <br>
+        <label for=""> color de tauaje</label>
+        <input type="color">
+        <br>
+     
+        <label for="">elija cuando quiere tatuarse</label>
+        <input type="datetime-local"><br>
+        <br>
+        <label for="">Comentario</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br>
+        <input type="submit" value=" enviando">
+        <br>
+        <input type="reset" value=" se borra todo ...ojo!!!!">
+        <br>
+        <input type="checkbox">
+        <label for="">acepto los terminos</label>
+         <br>   
+        <input type="button" value="accion">
+        
+        
+
+    </fieldset>
+        
+    </form>
+    <h2 id="title1">Como llegar</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12
+        !1m3!1d52502.81033921128!2d-58.65170343736004!3d-34.66920534314865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc76f57e3be01%3A0xa488fcdcec5b600f!2sMor%C3%B3n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1648360416163!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+      <footer id="pie">
+            <h2 id="title1">Redes</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100008090116974" target="_blank" > <i class="fa-brands fa-facebook"></i> </a><!-- en href" pongo la direccion""-->
+                <a href="https://www.instagram.com/unlegre_tattoo/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>   
+            </div>
+      </footer>
+        <a href="#" class="subir"> <i class="fa-solid fa-chevron-up"></i> </a> <!--boton subir con class subir-->
+         <a href="#" class="subir"> <i class="fa-solid fa-chevron-up"></i>Up </a> <!--boton subir con class subir-->
+    </footer>
+    <p>todos los derechos reservados por copyright</p>
+
+</body>
+
+    
+
+</html>
+
+</html>

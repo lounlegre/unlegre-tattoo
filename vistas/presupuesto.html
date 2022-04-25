@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./fondos/favicon13.png" type="image/x-icon">
+    <title>home index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/index.css">
+
+
+   <style>
+    
+       .border{
+           border: 2px  ;
+           color: gold;
+       }
+
+       .heder{
+        background-image: url(./fondos/calavera.png);
+       }
+       label{
+           color: azure;
+       }
+   </style>
+
+</head>
+<header >
+    
+
+    <h1> Presupuesto </h1>
+    
+    <nav class="nav"> 
+        <ul>          
+            <li><a href="/home.html">Home</a></li>          
+            <li><a href="/vistas/galeria.html">Galeria</li>
+            <li><a href="/vistas/contacto.html">Contacto</a></li>
+            <li><a href="/vistas/quien_soy.html"> Quien soy</a></li>
+        </ul>
+        
+    </nav>
+</header>
+<main>
+    <div class="call">
+        <h2>Bienvenidos a <div class="unlegre"> Presupuesto</div> </h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+           Quis dolor ex perspiciatis asperiores inventore quasi at 
+           sit aspernatur quam doloremque.</p>
+          <a href="#pie">mas info</a>   <!--aca puse el ancla #pie  para ir hasta el fotter-->
+</main>
+<body clas="heder">
+
+        <h2 id="title1">Contenido </h2> 
+            <h3><strong>Llene los campos necesarios para poder presupuestar el Tatuaje</strong></h3>
+    
+    <fieldset>
+           <legend class="border">Presupuesto</legend>
+    <p>especifique el lugar a tatuarse</p>
+    <input name="lugar" type="radio">
+    <label for="">espalda </label>
+    <input name="lugar" type="radio">
+    <label for="">pecho</label>
+    <input name="lugar" type="radio">
+    <label for="">panza</label>
+    <input name="lugar" type="radio">
+    <label for="">cuello</label>
+    <input name="lugar" type="radio">
+    <label for="">brazoz</label>
+    <input name="lugar" type="radio">
+    <label for="">piernas</label>
+    <br>
+    <label for="">tamaño en centimettros</label><br>
+    <input type="number" name="" id="">
+    <br>
+    <label for="">estilo de tatuaje</label>
+    <select name=" " id="">
+        <option value="">tradicional</option>  
+        <option value="">black an grey</option>  
+        <option value="">oriental</option>  
+        <option value="">nueva escuela </option>  
+        <option value="">realismo</option>  
+        <option value="">letras</option> 
+        <br>
+      <hr>
+    </fieldset>
+  <h3> datos suyos sobre tatuajes</h3>
+    </select>
+    <label for="">tiene tatuajes</label>
+    <input type="checkbox" name="" id="">
+     <br>
+     <label for="">cuantos</label> <input type="number" name="" id="">
+    <br>
+    <label for="">en donde</label>
+    <br>
+    <input name="" type="radio">
+    <label for="">espalda </label>
+    <input name="" type="radio">
+    <label for="">pecho</label>
+    <input name="" type="radio">
+    <label for="">panza</label>
+    <input name="" type="radio">
+    <label for="">cuello</label>
+    <input name="" type="radio">
+    <label for="">brazoz</label>
+    <select name=" " id="">
+        <option value="">parte interna </option>  
+        <option value="">parte externa</option>  
+    </select>
+    <input name="" type="radio">
+    <label for="">piernas</label>
+    <select name=" " id="">
+        <option value="">parte interna </option>  
+        <option value="">parte externa</option>  
+    </select>
+    <br>
+    <label for="">cuanto le dolio los tatuajes</label><br>
+    <input type="range">
+    <br>
+    <label for="">adjuntar archivo de tipo de imagen que quiere tatuarse</label>
+    <br>
+    <input type="file"><br>
+    <br>
+    <label for="price">coloque las ganas de tatuarce que tiene</label>
+    <input name =" price" type="range">
+    <br>
+    <label for="">color</label>
+    <input type="color"><br>
+    
+    <label for="">comentario</label>
+    <br>
+    <textarea name="" id="" cols="30" rows="5"></textarea>
+    <br>
+    <input type="submit" value=" enviando">
+    <br>
+    <input type="reset" value=" se borra todo ...ojo!!!!">
+    <br>
+    <input type="checkbox">
+    <label for="">acepto los terminos</label>
+     <br>   
+    <input type="button" value="accion">
+    
+    <footer id="pie">
+        <h2 id="title1">Redes</h2>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100008090116974" target="_blank" > <i class="fa-brands fa-facebook"></i> </a><!-- en href" pongo la direccion""-->
+            <a href="https://www.instagram.com/unlegre_tattoo/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>   
+        </div>
+        <p>todos los derechos reservados por copyright</p>
+    </footer>
+    <a href="#" class="subir"> <i class="fa-solid fa-chevron-up"></i> </a> <!--boton subir con class subir-->    
+</body>
+
+</html>
