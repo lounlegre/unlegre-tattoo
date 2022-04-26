@@ -33,6 +33,8 @@ h1{    /* titulo principal*/
     padding-bottom: 20px;
     background-image: url(/imagenes/fondos/fondorojo.jpg);
     border: solid 5px grey;
+    gap: 40px;
+  
 }
 #home{    
     text-align: left;
@@ -149,6 +151,12 @@ img{
         font-size: 20px;
         text-align: center;
         line-height: 120px;
+        border-radius: 10px;
+    }
+    .caja :hover{
+        transform: scale(1.05);
+        transition: all 0,7s;
+        box-shadow: 1px 1px 7px cornsilk;
     }
     #sec1{
         height: 600px;
@@ -161,16 +169,27 @@ img{
        
      
     }
-    .img{
+    .img{ /* esta es la clase de las galeria grig */
         border: solid beige;
+        border-radius: 15px;
+        transition: all 0,7s;
     }
-    .galeria3{
+    
+    .galeria3{                       /*  la clase de la galeria grid*/
       min-height: 600px;
       width: 100%;
       display: grid;
       /*grid-template-columns: repeat(4, 1fr); */
       /*grid-row: repeat(3, 1fr); */
+      gap: 20px;
+      padding: 20px;
+    }
 
+    .galeria3 :hover{                        /*  la clase de la galeria grid*/
+        transform: scale(1.05);
+        transition: all 0,7s;
+        box-shadow: 1px 1px 7px #fff;
+        box-shadow: 1px 1px 7px rgb(214, 145, 145);
     }
   
     .img1{
