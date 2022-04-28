@@ -31,7 +31,8 @@ h1{    /* titulo principal*/
     text-decoration: underline ;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url(/imagenes/fondos/fondorojo.jpg);
+   /* background-image: url(/imagenes/fondos/fondorojo.jpg); */
+    background-image: radial-gradient(red,orange);
     border: solid 5px grey;
     gap: 40px;
   
