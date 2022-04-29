@@ -37,6 +37,10 @@ h1{    /* titulo principal*/
     gap: 40px;
   
 }
+
+.tarjeta1{
+    transform: scale(1.5);   /* le di escalado*/
+}
 #home{    
     text-align: left;
     color: aliceblue;
